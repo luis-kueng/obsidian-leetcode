@@ -3,8 +3,8 @@
 	"name": "Random LeetCode",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "A Plugin for to solve random LeetCode Problems",
-	"author": "Lueng",
+	"description": "A Plugin to automatically get the daily LeetCode Problems",
+	"author": "Luis Küng",
 	"authorUrl": "https://lueng.ch",
 	"isDesktopOnly": false
 }

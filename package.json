@@ -1,14 +1,14 @@
 {
   "name": "random-leetcode",
   "version": "1.0.0",
-  "description": "A Plugin for to solve random LeetCode Problems",
-  "main": "main.ts",
+  "description": "A Plugin to automatically get the daily LeetCode Problems",
+  "main": "src/main.ts",
   "scripts": {
     "dev": "node esbuild.config.mjs",
     "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
     "version": "node version-bump.mjs && git add manifest.json versions.json"
   },
-  "author": "Lueng",
+  "author": "Luis Küng",
   "license": "MIT",
   "dependencies": {
     "@electron/asar": "^3.2.8",

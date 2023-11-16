@@ -41,7 +41,7 @@ ${problem.question.content}
             new Notice(`File ${filename} created`);
         }
     } catch (error) {
-        console.error('Error creating File:', error.response?.data || error.message);
+        console.error('Error creating File: ', error.response?.data || error.message);
     }
 
     return filename;
@@ -56,7 +56,7 @@ export default class RandomLeetCode extends Plugin {
 
 		const ribbonIconEl = this.addRibbonIcon('code', 'Random LeetCode Problem', (evt: MouseEvent) => {
             this.app.workspace.activeLeaf.openFile(filename);
-            new Notice('Random LeetCode Problem');
+            new Notice('Daily LeetCode Problem');
 		});
     }
 
