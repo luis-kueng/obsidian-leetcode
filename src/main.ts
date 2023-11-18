@@ -15,7 +15,13 @@ async function createDailyNote() {
     console.log(problem);
 
     const fileContent = `
+
+
 # [${problem.question.title}](https://leetcode.com${problem.link})
+
+Categories: #${problem.question.topicTags.map((tag: string) => tag.name.replace(" ", "-")).join(' #')}
+
+Difficulty: #${problem.question.difficulty}
 
 ## Question
 
